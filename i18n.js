@@ -57,6 +57,7 @@ const I18N_TRANSLATIONS = {
       "pub1_venue": "In: Gronostay, D., Manzel, S., Hahn-Laudenberg, K., Teuwsen, J. (Hrsg.) Professionelle Unterrichtswahrnehmung im sozialwissenschaftlichen Fachunterricht. Politische Bildung. Springer VS, Wiesbaden.",
       "pub2_venue": "Preprint, Zenodo.",
       "pub3_venue": "Preprint, Zenodo.",
+      "pub4_venue": "In: Grommé, E., Schlöpker, J., Kaiser, T., Reintjes, C. & Nonte, S. (Hrsg.) Empirische Perspektiven aus der Bildungsforschung: Wissenstransfer zwischen Empirie und Praxis (S. 157-165). Waxmann.",
       "doi": "DOI"
     },
     "contact": {
@@ -147,6 +148,7 @@ const I18N_TRANSLATIONS = {
       "pub1_venue": "Gronostay, D., Manzel, S., Hahn-Laudenberg, K., Teuwsen, J. (Hrsg.)",
       "pub2_venue": "Preprint, Zenodo.",
       "pub3_venue": "Preprint, Zenodo.",
+      "pub4_venue": "In: Grommé, E., Schlöpker, J., Kaiser, T., Reintjes, C. & Nonte, S. (Eds.) Empirische Perspektiven aus der Bildungsforschung: Wissenstransfer zwischen Empirie und Praxis (pp. 157-165). Waxmann.",
       "doi": "DOI"
     },
     "contact": {
