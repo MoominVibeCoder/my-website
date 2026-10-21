@@ -13,6 +13,7 @@ Persönliche Website von Simon Filler — statisches HTML/CSS/JS, kein Build-Sch
 | `i18n.js` | Übersetzungen + Sprachumschaltung für `index.html` |
 | `profile.jpg` | Foto auf der Hauptseite |
 | `avatar.jpg` | Foto auf der Rabbit-Hole-Seite |
+| `fonts/` | Lokal gehostete Webfonts (Inter, Space Mono, Crimson Pro), eingebunden über `fonts/fonts.css` |
 
 `matrix.html` und `impress.html` sind standalone — Styles und Skripte liegen jeweils inline in der Datei.
 
@@ -34,5 +35,5 @@ Geplant: Custom Domain `simonfiller.eu`. Konkretes Setup folgt.
 ## Offene Punkte
 
 - Impressum: Adresse, Telefon, ggf. USt-IdNr. ergänzen
-- Datenschutzerklärung anlegen (Google Fonts werden aktuell vom Google-CDN geladen)
+- Datenschutzerklärung anlegen
 - Favicon (`favicon.ico` / `favicon.svg`) bereitstellen
