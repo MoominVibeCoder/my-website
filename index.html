@@ -15,7 +15,7 @@
     <link rel="canonical" href="https://simonfiller.eu/">
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="style.css?v=8">
+    <link rel="stylesheet" href="style.css?v=9">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -95,6 +95,25 @@
             <li><strong>4</strong><span data-i18n="hero.stat_projects">Forschungsprojekte</span></li>
             <li><strong>2</strong><span data-i18n="hero.stat_networks">Verbundprojekte in NRW</span></li>
             <li><strong data-i18n="hero.stat_since_value">seit 2021</strong><span data-i18n="hero.stat_since">in der Unterrichtsforschung</span></li>
+        </ul>
+    </div>
+</section>
+
+<!-- NEWS -->
+<section id="news" class="section section-alt">
+    <div class="section-inner">
+        <p class="section-label" data-i18n="news.label">Aktuelles</p>
+        <h2 class="section-title" data-i18n="news.title">Neuigkeiten</h2>
+        <ul class="news-list">
+            <li class="news-item">
+                <time class="news-date" datetime="2026-09">09/2026</time>
+                <div>
+                    <span class="research-tag" data-i18n="news.earli_tag">Vortrag</span>
+                    <h3 class="news-heading" data-i18n="news.earli_title">EARLI SIG 26 in Brno</h3>
+                    <p class="news-body" data-i18n="news.earli_body">Gemeinsam mit Lukas Brandt war ich vom 1. bis 3. September auf der internationalen Tagung „Argumentation, Dialogue and Reasoning“ an der Masaryk-Universität in Brno. In einem Symposium habe ich eine KI-gestützte Pipeline vorgestellt, mit der sich Kleingruppendiskussionen von der Audioaufnahme bis zur Analyse untersuchen lassen.</p>
+                    <p class="news-talk">From Audio to Analysis: An AI-Assisted Pipeline for Investigating Small Group Discourse</p>
+                </div>
+            </li>
         </ul>
     </div>
 </section>
@@ -219,7 +238,7 @@
     <span class="rabbit-arrow">&#9654;</span>
 </a>
 
-<script src="i18n.js?v=4"></script>
+<script src="i18n.js?v=5"></script>
 <script>
 const toggle = document.getElementById('theme-toggle');
 const root = document.documentElement;
@@ -245,7 +264,7 @@ if (root.classList.contains('reveal-on')) {
             revealer.unobserve(target);
         });
     }, { rootMargin: '0px 0px -10% 0px' });
-    document.querySelectorAll('.section-label, .section-title, .section-subtitle, .research-card, .pub-item, .contact-lead, .contact-big, .contact-social').forEach((el) => {
+    document.querySelectorAll('.section-label, .section-title, .section-subtitle, .news-item, .research-card, .pub-item, .contact-lead, .contact-big, .contact-social').forEach((el) => {
         el.classList.add('reveal');
         if (el.matches('.research-card')) el.style.animationDelay = [...el.parentNode.children].indexOf(el) % 2 * 90 + 'ms';
         revealer.observe(el);

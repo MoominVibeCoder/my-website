@@ -223,6 +223,16 @@ html.dark .research-status--ended {
 .research-link { font-size:.85rem; font-weight:600; color:var(--accent); text-decoration:none; transition:color .2s; }
 .research-link:hover { color:var(--accent-hover); }
 
+/* ─── News ─── */
+.news-list { list-style:none; display:flex; flex-direction:column; gap:2.2rem; }
+.news-item { display:grid; grid-template-columns:6rem 1fr; gap:1.5rem; padding-bottom:2.2rem; border-bottom:1px solid var(--divider); }
+.news-item:last-child { border:none; padding-bottom:0; }
+.news-date { font-family:'Space Mono', monospace; font-size:.75rem; font-weight:700; color:var(--text-secondary); padding-top:.15rem; }
+.news-heading { font-size:1.15rem; font-weight:700; letter-spacing:-.01em; margin:.8rem 0 .5rem; }
+.news-body { font-size:.92rem; color:var(--text-secondary); line-height:1.6; margin-bottom:1rem; }
+.news-talk { font-size:.88rem; font-style:italic; color:var(--text); border-left:2px solid var(--accent); padding-left:.9rem; }
+@media(max-width:560px){ .news-item { grid-template-columns:1fr; gap:.6rem; } }
+
 /* ─── Publications ─── */
 .pub-list { list-style:none; display:flex; flex-direction:column; gap:2.2rem; }
 .pub-item {

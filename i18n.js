@@ -26,6 +26,13 @@ const I18N_TRANSLATIONS = {
       "talktrace": "Entwickler",
       "lars": "Koordination"
     },
+    "news": {
+      "label": "Aktuelles",
+      "title": "Neuigkeiten",
+      "earli_tag": "Vortrag",
+      "earli_title": "EARLI SIG 26 in Brno",
+      "earli_body": "Gemeinsam mit Lukas Brandt war ich vom 1. bis 3. September auf der internationalen Tagung „Argumentation, Dialogue and Reasoning“ an der Masaryk-Universität in Brno. In einem Symposium habe ich eine KI-gestützte Pipeline vorgestellt, mit der sich Kleingruppendiskussionen von der Audioaufnahme bis zur Analyse untersuchen lassen."
+    },
     "research": {
       "label": "Forschung",
       "title": "Projekte",
@@ -119,6 +126,13 @@ const I18N_TRANSLATIONS = {
       "diss": "PhD Student",
       "talktrace": "Developer",
       "lars": "Coordination"
+    },
+    "news": {
+      "label": "News",
+      "title": "Latest",
+      "earli_tag": "Talk",
+      "earli_title": "EARLI SIG 26 in Brno",
+      "earli_body": "Together with Lukas Brandt, I attended the international conference “Argumentation, Dialogue and Reasoning” at Masaryk University in Brno from 1 to 3 September. In a symposium, I presented an AI-assisted pipeline for investigating small group discussions, from audio recording to analysis."
     },
     "research": {
       "label": "Research",
