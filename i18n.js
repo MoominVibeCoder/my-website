@@ -11,7 +11,7 @@ const I18N_TRANSLATIONS = {
       "cta_primary": "Schreib mir",
       "cta_secondary": "Forschung ansehen",
       "stat_projects": "Forschungsprojekte",
-      "stat_films": "Animationsfilme für die Lehrkräftebildung",
+      "stat_networks": "Verbundprojekte in NRW",
       "stat_since_value": "seit 2021",
       "stat_since": "in der Unterrichtsforschung"
     },
@@ -50,7 +50,7 @@ const I18N_TRANSLATIONS = {
       "lars_tag": "OER-Projekt",
       "lars_status": "Beendet",
       "lars_title": "LArS.nrw",
-      "lars_body": "Lernen mit Animationsfilmen realer Unterrichtsszenen. Im Projekt entstanden 24 Animationsfilme (3–6 Min.), Comics und umfangreiche Materialien für die universitäre Lehramtsbildung. Reale Videos zeigen typische Interaktionen und fördern professionelle Wahrnehmungsfähigkeiten.",
+      "lars_body": "Lernen mit Animationsfilmen realer Unterrichtsszenen. Im Projekt entstanden 22 Animationsfilme (3–6 Min.), Comics und umfangreiche Materialien für die universitäre Lehramtsbildung. Reale Videos zeigen typische Interaktionen und fördern professionelle Wahrnehmungsfähigkeiten.",
       "lars_link1": "Mehr erfahren",
       "lars_link2": "Projektwebsite"
     },
@@ -105,7 +105,7 @@ const I18N_TRANSLATIONS = {
       "cta_primary": "Get in touch",
       "cta_secondary": "View research",
       "stat_projects": "research projects",
-      "stat_films": "animated films for teacher education",
+      "stat_networks": "joint projects in North Rhine-Westphalia",
       "stat_since_value": "since 2021",
       "stat_since": "in classroom research"
     },
@@ -144,7 +144,7 @@ const I18N_TRANSLATIONS = {
       "lars_tag": "OER Project",
       "lars_status": "Completed",
       "lars_title": "LArS.nrw",
-      "lars_body": "Learning with animation films of real classroom scenes. The project produced 24 animation films (3–6 min), comics and extensive materials for university teacher education. Real videos show typical interactions and promote professional perception skills.",
+      "lars_body": "Learning with animation films of real classroom scenes. The project produced 22 animation films (3–6 min), comics and extensive materials for university teacher education. Real videos show typical interactions and promote professional perception skills.",
       "lars_link1": "Learn more",
       "lars_link2": "Project website"
     },
