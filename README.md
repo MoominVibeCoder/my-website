@@ -9,13 +9,14 @@ Persönliche Website von Simon Filler — statisches HTML/CSS/JS, kein Build-Sch
 | `index.html` | Hauptseite: Forschung, Publikationen, Kontakt (DE/EN, Light/Dark) |
 | `matrix.html` | „Rabbit Hole" — Coaching / Mentoring / Beratung |
 | `impress.html` | Impressum |
+| `datenschutz.html` | Datenschutzerklärung (Stil wie Impressum) |
 | `style.css` | Styles für `index.html` |
 | `i18n.js` | Übersetzungen + Sprachumschaltung für `index.html` |
 | `profile.jpg` | Foto auf der Hauptseite |
 | `avatar.jpg` | Foto auf der Rabbit-Hole-Seite |
 | `fonts/` | Lokal gehostete Webfonts (Inter, Space Mono, Crimson Pro), eingebunden über `fonts/fonts.css` |
 
-`matrix.html` und `impress.html` sind standalone — Styles und Skripte liegen jeweils inline in der Datei.
+`matrix.html`, `impress.html` und `datenschutz.html` sind standalone — Styles und Skripte liegen jeweils inline in der Datei.
 
 ## Lokal ansehen
 
@@ -35,5 +36,4 @@ Geplant: Custom Domain `simonfiller.eu`. Konkretes Setup folgt.
 ## Offene Punkte
 
 - Impressum: Adresse, Telefon, ggf. USt-IdNr. ergänzen
-- Datenschutzerklärung anlegen
 - Favicon (`favicon.ico` / `favicon.svg`) bereitstellen

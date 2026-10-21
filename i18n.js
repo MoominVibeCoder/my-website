@@ -81,7 +81,8 @@ const I18N_TRANSLATIONS = {
     },
     "footer": {
       "rabbit_text": "Coaching · Mentoring · Beratung",
-      "impress": "Impressum"
+      "impress": "Impressum",
+      "privacy": "Datenschutz"
     },
     "matrix": {
       "quote": "\"Wie schon der große Philosoph Mick Jagger sagte: 'You can't always get what you want.'\" — Dr. House",
@@ -182,7 +183,8 @@ const I18N_TRANSLATIONS = {
     },
     "footer": {
       "rabbit_text": "Coaching · Mentoring · Consulting",
-      "impress": "Legal Notice"
+      "impress": "Legal Notice",
+      "privacy": "Privacy"
     },
     "matrix": {
       "quote": "\"As the great philosopher Mick Jagger said: 'You can't always get what you want.'\" — Dr. House",
