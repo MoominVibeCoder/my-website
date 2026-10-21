@@ -78,6 +78,9 @@ main { position:relative; z-index:10; width:100%; min-height:100vh; display:flex
     padding:2.2rem 2rem; box-shadow:0 8px 32px var(--shadow); transition:box-shadow .3s;
 }
 .card-inner:hover { box-shadow:0 12px 40px var(--shadow-hover); }
+.legal-links { margin-top:1rem; text-align:center; font-family:'Space Mono', monospace; font-size:.68rem; letter-spacing:.05em; color:var(--text-muted); }
+.legal-links a { color:var(--text-secondary); text-decoration:none; transition:color .3s; }
+.legal-links a:hover { color:var(--text); }
 
 /* Profile */
 .profile-section { display:flex; align-items:center; gap:1.2rem; margin-bottom:1.8rem; text-align:left; }
@@ -271,6 +274,7 @@ main { position:relative; z-index:10; width:100%; min-height:100vh; display:flex
         <span class="contact-note" data-i18n="matrix.status_note">aktuell keine Slots verfügbar</span>
       </div>
     </div>
+    <nav class="legal-links"><a href="impress.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></nav>
   </div>
 </main>
 
