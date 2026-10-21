@@ -5,11 +5,15 @@ const I18N_TRANSLATIONS = {
     "hero": {
       "name": "Simon Filler",
       "role": "M.Ed. · Promovend Empirische Politikdidaktik",
-      "bio": "Unterrichtsforschung, KI in Forschung und Lehre, Politikdidaktik.",
+      "bio": "Ich untersuche, wie Politikunterricht politische Urteilsbildung fördert, und entwickle KI-gestützte Werkzeuge für die Unterrichtsforschung.",
       "affiliation": "Technische Universität Dortmund",
       "affiliation2": "Didaktik der Sozialwissenschaften",
       "cta_primary": "Schreib mir",
-      "cta_secondary": "Forschung ansehen"
+      "cta_secondary": "Forschung ansehen",
+      "stat_projects": "Forschungsprojekte",
+      "stat_films": "Animationsfilme für die Lehrkräftebildung",
+      "stat_since_value": "seit 2021",
+      "stat_since": "in der Unterrichtsforschung"
     },
     "meta": {
       "period": "Zeitraum",
@@ -95,11 +99,15 @@ const I18N_TRANSLATIONS = {
     "hero": {
       "name": "Simon Filler",
       "role": "M.Ed. · PhD Candidate Empirical Civic Education",
-      "bio": "Educational research, AI in research and teaching, civic education.",
+      "bio": "I study how civic education fosters political judgement and build AI-supported tools for classroom research.",
       "affiliation": "TU Dortmund University",
       "affiliation2": "Social Science Education",
       "cta_primary": "Get in touch",
-      "cta_secondary": "View research"
+      "cta_secondary": "View research",
+      "stat_projects": "research projects",
+      "stat_films": "animated films for teacher education",
+      "stat_since_value": "since 2021",
+      "stat_since": "in classroom research"
     },
     "meta": {
       "period": "Period",

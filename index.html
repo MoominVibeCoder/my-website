@@ -15,7 +15,7 @@
     <link rel="canonical" href="https://simonfiller.eu/">
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="style.css?v=7">
+    <link rel="stylesheet" href="style.css?v=8">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -74,21 +74,28 @@
 <!-- HERO -->
 <section class="hero" id="about">
     <div class="hero-inner">
+        <div class="hero-text">
+            <div class="hero-affiliation">
+                <span data-i18n="hero.affiliation">Technische Universität Dortmund</span>
+                <span class="dot">·</span>
+                <span data-i18n="hero.affiliation2">Didaktik der Sozialwissenschaften</span>
+            </div>
+            <h1 class="hero-name">Simon Filler</h1>
+            <p class="hero-role" data-i18n="hero.role">M.Ed. · Promovend Empirische Politikdidaktik</p>
+            <p class="hero-bio" data-i18n="hero.bio">Ich untersuche, wie Politikunterricht politische Urteilsbildung fördert, und entwickle KI-gestützte Werkzeuge für die Unterrichtsforschung.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary" data-i18n="hero.cta_primary">Schreib mir</a>
+                <a href="#research" class="btn btn-ghost" data-i18n="hero.cta_secondary">Forschung ansehen</a>
+            </div>
+        </div>
         <div class="avatar-wrap">
-            <img src="profile.jpg" alt="Simon Filler" class="hero-avatar">
+            <img src="profile.jpg" alt="Simon Filler" class="hero-avatar" width="600" height="600">
         </div>
-        <h1 class="hero-name">Simon Filler</h1>
-        <p class="hero-role" data-i18n="hero.role">M.Ed. · Promovend Empirische Politikdidaktik</p>
-        <p class="hero-bio" data-i18n="hero.bio">Unterrichtsforschung, KI in Forschung und Lehre, Politikdidaktik.</p>
-        <div class="hero-affiliation">
-            <span data-i18n="hero.affiliation">Technische Universität Dortmund</span>
-            <span class="dot">·</span>
-            <span data-i18n="hero.affiliation2">Didaktik der Sozialwissenschaften</span>
-        </div>
-        <div class="hero-actions">
-            <a href="#contact" class="btn btn-primary" data-i18n="hero.cta_primary">Schreib mir</a>
-            <a href="#research" class="btn btn-ghost" data-i18n="hero.cta_secondary">Forschung ansehen</a>
-        </div>
+        <ul class="hero-stats">
+            <li><strong>4</strong><span data-i18n="hero.stat_projects">Forschungsprojekte</span></li>
+            <li><strong>24</strong><span data-i18n="hero.stat_films">Animationsfilme für die Lehrkräftebildung</span></li>
+            <li><strong data-i18n="hero.stat_since_value">seit 2021</strong><span data-i18n="hero.stat_since">in der Unterrichtsforschung</span></li>
+        </ul>
     </div>
 </section>
 
@@ -212,7 +219,7 @@
     <span class="rabbit-arrow">&#9654;</span>
 </a>
 
-<script src="i18n.js?v=2"></script>
+<script src="i18n.js?v=3"></script>
 <script>
 const toggle = document.getElementById('theme-toggle');
 const root = document.documentElement;
