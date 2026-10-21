@@ -49,6 +49,9 @@ body {
     transition:background .4s ease, color .4s ease;
 }
 
+/* ─── Fokus ─── */
+:where(a, button, input):focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+
 /* ─── Navigation ─── */
 .nav-left { display:flex; align-items:center; gap:.5rem; }
 .nav-spacer { width:36px; }
@@ -289,8 +292,12 @@ html.dark .research-status--ended {
     .hero { padding:6.5rem 1.2rem 4rem; }
     .top-nav { padding:.8rem 1rem; }
     .nav-spacer { display:none; }
-    .nav-links { gap:.9rem; }
-    .nav-link { font-size:.65rem; }
+    .nav-links {
+        min-width:0; gap:1rem; margin:0 0 -6px .75rem; padding:0 1.5rem 6px 0; overflow-x:auto; scrollbar-width:none;
+        -webkit-mask-image:linear-gradient(90deg, #000 88%, transparent); mask-image:linear-gradient(90deg, #000 88%, transparent);
+    }
+    .nav-links::-webkit-scrollbar { display:none; }
+    .nav-link { font-size:.65rem; white-space:nowrap; flex-shrink:0; }
     .section-subtitle, .hero-bio { font-size:.95rem; }
     .services-grid { grid-template-columns:1fr; }
     .theme-toggle { width:32px; height:32px; }

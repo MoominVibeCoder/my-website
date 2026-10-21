@@ -10,6 +10,8 @@ Persönliche Website von Simon Filler — statisches HTML/CSS/JS, kein Build-Sch
 | `matrix.html` | „Rabbit Hole" — Coaching / Mentoring / Beratung |
 | `impress.html` | Impressum |
 | `datenschutz.html` | Datenschutzerklärung (Stil wie Impressum) |
+| `404.html` | Fehlerseite für GitHub Pages (absolute Pfade, da unter beliebigen URLs ausgeliefert) |
+| `robots.txt`, `sitemap.xml` | Für Suchmaschinen; `sitemap.xml` bei neuen öffentlichen Seiten ergänzen |
 | `style.css` | Styles für `index.html` |
 | `i18n.js` | Übersetzungen + Sprachumschaltung für `index.html` |
 | `profile.jpg` | Foto auf der Hauptseite |

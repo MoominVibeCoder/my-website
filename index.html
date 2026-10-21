@@ -14,8 +14,10 @@
     <meta name="twitter:card" content="summary">
     <link rel="canonical" href="https://simonfiller.eu/">
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preload" href="fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/crimson-pro.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="style.css?v=11">
+    <link rel="stylesheet" href="style.css?v=12">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -61,7 +63,7 @@
         <button class="lang-toggle" data-lang-toggle aria-label="Sprache wechseln">EN</button>
     </div>
     <div class="nav-links">
-        <a href="#about" class="nav-link" data-i18n="nav.about">Über</a>
+        <a href="#news" class="nav-link" data-i18n="nav.news">Aktuelles</a>
         <a href="#research" class="nav-link" data-i18n="nav.research">Forschung</a>
         <a href="#publications" class="nav-link" data-i18n="nav.publications">Publikationen</a>
         <a href="#contact" class="nav-link" data-i18n="nav.contact">Kontakt</a>
@@ -236,7 +238,7 @@
     </div>
 </footer>
 
-<script src="i18n.js?v=6"></script>
+<script src="i18n.js?v=7"></script>
 <script>
 const toggle = document.getElementById('theme-toggle');
 const root = document.documentElement;
@@ -271,18 +273,24 @@ if (root.classList.contains('reveal-on')) {
 
 // Aktiver Nav-Link und Nav-Schatten
 const nav = document.querySelector('.top-nav');
-const navLinks = document.querySelectorAll('.nav-link');
+const navList = document.querySelector('.nav-links');
+const navLinks = [...navList.querySelectorAll('.nav-link')];
 const sections = [...document.querySelectorAll('main > section[id]')];
+let activeLink;
 
 function onScroll() {
     nav.classList.toggle('scrolled', window.scrollY > 8);
     const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
     const current = atBottom ? sections.at(-1) : sections.filter((s) => s.getBoundingClientRect().top <= window.innerHeight * 0.45).at(-1);
+    const target = navLinks.find((a) => current && a.getAttribute('href') === '#' + current.id);
+    if (target === activeLink) return;
+    activeLink = target;
     navLinks.forEach((a) => {
-        const on = !!current && a.getAttribute('href') === '#' + current.id;
-        a.classList.toggle('active', on);
-        if (on) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current');
+        a.classList.toggle('active', a === target);
+        if (a === target) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current');
     });
+    // Auf schmalen Screens scrollt die Linkleiste den aktiven Link ins Bild
+    navList.scrollTo({ left: target ? target.offsetLeft - navList.offsetLeft - 8 : 0, behavior: 'smooth' });
 }
 window.addEventListener('scroll', onScroll, { passive: true });
 onScroll();

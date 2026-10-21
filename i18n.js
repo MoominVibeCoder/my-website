@@ -1,7 +1,7 @@
 /* ===== i18n System ===== */
 const I18N_TRANSLATIONS = {
   "de": {
-    "nav": { "about": "Über", "research": "Forschung", "publications": "Publikationen", "contact": "Kontakt" },
+    "nav": { "news": "Aktuelles", "research": "Forschung", "publications": "Publikationen", "contact": "Kontakt" },
     "hero": {
       "name": "Simon Filler",
       "role": "M.Ed. · Promovend Empirische Politikdidaktik",
@@ -103,7 +103,7 @@ const I18N_TRANSLATIONS = {
     "lang": { "toggle": "EN" }
   },
   "en": {
-    "nav": { "about": "About", "research": "Research", "publications": "Publications", "contact": "Contact" },
+    "nav": { "news": "News", "research": "Research", "publications": "Publications", "contact": "Contact" },
     "hero": {
       "name": "Simon Filler",
       "role": "M.Ed. · PhD Candidate Empirical Civic Education",
